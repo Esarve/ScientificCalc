@@ -80,75 +80,75 @@
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jRadioButton1" min="-2" pref="60" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="210" max="-2" attributes="0"/>
-                              <Component id="jButton22" min="-2" pref="70" max="-2" attributes="0"/>
+                              <Component id="PowerButton" min="-2" pref="70" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="jButton23" min="-2" pref="70" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
-                              <Component id="jButton21" min="-2" pref="70" max="-2" attributes="0"/>
+                              <Component id="Square_Root_Button" min="-2" pref="70" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jButton19" min="-2" pref="70" max="-2" attributes="0"/>
+                              <Component id="SquareButton" min="-2" pref="70" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jButton12" min="-2" pref="70" max="-2" attributes="0"/>
+                                          <Component id="Dot_Or_Point_Button" min="-2" pref="70" max="-2" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Component id="jButton11" min="-2" pref="70" max="-2" attributes="0"/>
+                                          <Component id="Zero_Number_Button" min="-2" pref="70" max="-2" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Component id="jButton10" min="-2" pref="70" max="-2" attributes="0"/>
+                                          <Component id="EqualButton" min="-2" pref="70" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jButton9" min="-2" pref="70" max="-2" attributes="0"/>
+                                          <Component id="Four_Number_Button" min="-2" pref="70" max="-2" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Component id="jButton8" min="-2" pref="70" max="-2" attributes="0"/>
+                                          <Component id="Five_Number_Button" min="-2" pref="70" max="-2" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Component id="jButton7" min="-2" pref="70" max="-2" attributes="0"/>
+                                          <Component id="Six_Number_Button" min="-2" pref="70" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
-                                          <Component id="jButton13" min="-2" pref="70" max="-2" attributes="0"/>
+                                          <Component id="Seven_Number_Button" min="-2" pref="70" max="-2" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Component id="jButton14" min="-2" pref="70" max="-2" attributes="0"/>
+                                          <Component id="Eight_Number_Button" min="-2" pref="70" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
-                                          <Component id="jButton15" min="-2" pref="70" max="-2" attributes="0"/>
+                                          <Component id="Nine_Number_Button" min="-2" pref="70" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Component id="jRadioButton2" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jButton2" min="-2" pref="70" max="-2" attributes="0"/>
+                                      <Component id="One_Number_Button" min="-2" pref="70" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="jButton1" max="32767" attributes="0"/>
-                                          <Component id="jButton4" pref="70" max="32767" attributes="0"/>
+                                          <Component id="BackspaceButton" max="32767" attributes="0"/>
+                                          <Component id="Two_Number_Button" pref="70" max="32767" attributes="0"/>
                                       </Group>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" alignment="0" attributes="0">
                                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="jButton3" min="-2" pref="70" max="-2" attributes="0"/>
+                                              <Component id="DeleteAllButton" min="-2" pref="70" max="-2" attributes="0"/>
                                           </Group>
                                           <Group type="102" alignment="0" attributes="0">
                                               <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                                              <Component id="jButton6" min="-2" pref="70" max="-2" attributes="0"/>
+                                              <Component id="Three_Number_Button" min="-2" pref="70" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
                               </Group>
                               <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="jButton18" alignment="1" min="-2" pref="70" max="-2" attributes="0"/>
-                                  <Component id="jButton5" alignment="1" min="-2" pref="70" max="-2" attributes="0"/>
-                                  <Component id="jButton17" min="-2" pref="70" max="-2" attributes="0"/>
-                                  <Component id="jButton16" min="-2" pref="70" max="-2" attributes="0"/>
+                                  <Component id="DivisionButton" alignment="1" min="-2" pref="70" max="-2" attributes="0"/>
+                                  <Component id="SubtractionButton" alignment="1" min="-2" pref="70" max="-2" attributes="0"/>
+                                  <Component id="MultificationButton" min="-2" pref="70" max="-2" attributes="0"/>
+                                  <Component id="AdditionButton" min="-2" pref="70" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jButton20" min="-2" pref="70" max="-2" attributes="0"/>
-                                  <Component id="jButton24" min="-2" pref="70" max="-2" attributes="0"/>
-                                  <Component id="jButton25" min="-2" pref="70" max="-2" attributes="0"/>
-                                  <Component id="jButton26" min="-2" pref="70" max="-2" attributes="0"/>
-                                  <Component id="jButton27" min="-2" pref="70" max="-2" attributes="0"/>
+                                  <Component id="log_button" min="-2" pref="70" max="-2" attributes="0"/>
+                                  <Component id="sin_button" min="-2" pref="70" max="-2" attributes="0"/>
+                                  <Component id="ln_button" min="-2" pref="70" max="-2" attributes="0"/>
+                                  <Component id="tan_button" min="-2" pref="70" max="-2" attributes="0"/>
+                                  <Component id="cos_button" min="-2" pref="70" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -169,64 +169,64 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="jRadioButton1" alignment="0" min="-2" pref="25" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton19" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton21" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton22" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="SquareButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Square_Root_Button" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="PowerButton" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jButton23" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jButton1" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                  <Component id="jButton3" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                  <Component id="jButton18" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                  <Component id="jButton25" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BackspaceButton" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  <Component id="DeleteAllButton" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  <Component id="DivisionButton" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  <Component id="ln_button" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jRadioButton2" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jButton2" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                  <Component id="jButton4" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                  <Component id="jButton6" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                  <Component id="jButton17" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                  <Component id="jButton20" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="One_Number_Button" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  <Component id="Two_Number_Button" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  <Component id="Three_Number_Button" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  <Component id="MultificationButton" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  <Component id="log_button" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jButton9" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="jButton8" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="jButton5" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="Four_Number_Button" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="Five_Number_Button" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="SubtractionButton" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="jButton7" alignment="0" min="-2" pref="44" max="-2" attributes="0"/>
+                          <Component id="Six_Number_Button" alignment="0" min="-2" pref="44" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jButton13" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                                  <Component id="jButton14" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                                  <Component id="jButton15" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                                  <Component id="Seven_Number_Button" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                                  <Component id="Eight_Number_Button" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                                  <Component id="Nine_Number_Button" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jButton12" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                                  <Component id="jButton11" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                                  <Component id="jButton10" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                                  <Component id="Dot_Or_Point_Button" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                                  <Component id="Zero_Number_Button" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                                  <Component id="EqualButton" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <Component id="jButton16" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                          <Component id="AdditionButton" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                      <Component id="jButton26" min="-2" max="-2" attributes="0"/>
+                      <Component id="tan_button" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
-                      <Component id="jButton27" min="-2" max="-2" attributes="0"/>
+                      <Component id="cos_button" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                      <Component id="jButton24" min="-2" max="-2" attributes="0"/>
+                      <Component id="sin_button" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace pref="72" max="32767" attributes="0"/>
@@ -280,7 +280,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton2ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton1">
+    <Component class="javax.swing.JButton" name="BackspaceButton">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="18" style="1"/>
@@ -288,10 +288,10 @@
         <Property name="text" type="java.lang.String" value="&#x2190; "/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BackspaceButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton2">
+    <Component class="javax.swing.JButton" name="One_Number_Button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Noto Sans" size="15" style="1"/>
@@ -300,10 +300,10 @@
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="One_Number_ButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton3">
+    <Component class="javax.swing.JButton" name="DeleteAllButton">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -314,10 +314,10 @@
         <Property name="text" type="java.lang.String" value="C"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DeleteAllButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton4">
+    <Component class="javax.swing.JButton" name="Two_Number_Button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Noto Sans" size="15" style="1"/>
@@ -325,10 +325,10 @@
         <Property name="text" type="java.lang.String" value="2"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Two_Number_ButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton5">
+    <Component class="javax.swing.JButton" name="SubtractionButton">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="99" red="ff" type="rgb"/>
@@ -339,10 +339,10 @@
         <Property name="text" type="java.lang.String" value="-"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SubtractionButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton6">
+    <Component class="javax.swing.JButton" name="Three_Number_Button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Noto Sans" size="15" style="1"/>
@@ -350,10 +350,10 @@
         <Property name="text" type="java.lang.String" value="3"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Three_Number_ButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton7">
+    <Component class="javax.swing.JButton" name="Six_Number_Button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Noto Sans" size="15" style="1"/>
@@ -361,10 +361,10 @@
         <Property name="text" type="java.lang.String" value="6"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Six_Number_ButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton8">
+    <Component class="javax.swing.JButton" name="Five_Number_Button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Noto Sans" size="15" style="1"/>
@@ -372,10 +372,10 @@
         <Property name="text" type="java.lang.String" value="5"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton8ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Five_Number_ButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton9">
+    <Component class="javax.swing.JButton" name="Four_Number_Button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Noto Sans" size="15" style="1"/>
@@ -383,10 +383,10 @@
         <Property name="text" type="java.lang.String" value="4"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton9ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Four_Number_ButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton10">
+    <Component class="javax.swing.JButton" name="EqualButton">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Noto Sans" size="15" style="1"/>
@@ -394,10 +394,10 @@
         <Property name="text" type="java.lang.String" value="="/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton10ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EqualButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton11">
+    <Component class="javax.swing.JButton" name="Zero_Number_Button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Noto Sans" size="15" style="1"/>
@@ -405,10 +405,10 @@
         <Property name="text" type="java.lang.String" value="0"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton11ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Zero_Number_ButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton12">
+    <Component class="javax.swing.JButton" name="Dot_Or_Point_Button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Noto Sans" size="15" style="1"/>
@@ -416,10 +416,10 @@
         <Property name="text" type="java.lang.String" value="."/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton12ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Dot_Or_Point_ButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton13">
+    <Component class="javax.swing.JButton" name="Seven_Number_Button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Noto Sans" size="15" style="1"/>
@@ -427,10 +427,10 @@
         <Property name="text" type="java.lang.String" value="7"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton13ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Seven_Number_ButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton14">
+    <Component class="javax.swing.JButton" name="Eight_Number_Button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Noto Sans" size="15" style="1"/>
@@ -438,10 +438,10 @@
         <Property name="text" type="java.lang.String" value="8"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton14ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Eight_Number_ButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton15">
+    <Component class="javax.swing.JButton" name="Nine_Number_Button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Noto Sans" size="15" style="1"/>
@@ -449,10 +449,10 @@
         <Property name="text" type="java.lang.String" value="9"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton15ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Nine_Number_ButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton16">
+    <Component class="javax.swing.JButton" name="AdditionButton">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="99" red="ff" type="rgb"/>
@@ -463,10 +463,10 @@
         <Property name="text" type="java.lang.String" value="+"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton16ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AdditionButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton17">
+    <Component class="javax.swing.JButton" name="MultificationButton">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="99" red="ff" type="rgb"/>
@@ -477,10 +477,10 @@
         <Property name="text" type="java.lang.String" value="&#xd7;"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton17ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MultificationButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton18">
+    <Component class="javax.swing.JButton" name="DivisionButton">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="99" red="ff" type="rgb"/>
@@ -491,7 +491,7 @@
         <Property name="text" type="java.lang.String" value="&#xf7;"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton18ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DivisionButtonActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
@@ -501,7 +501,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton19">
+    <Component class="javax.swing.JButton" name="SquareButton">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="14" style="1"/>
@@ -509,10 +509,10 @@
         <Property name="text" type="java.lang.String" value="x&#xb2;"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton19ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SquareButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton20">
+    <Component class="javax.swing.JButton" name="log_button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="12" style="1"/>
@@ -520,7 +520,7 @@
         <Property name="text" type="java.lang.String" value="log"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton21">
+    <Component class="javax.swing.JButton" name="Square_Root_Button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="12" style="1"/>
@@ -528,10 +528,10 @@
         <Property name="text" type="java.lang.String" value="&#x221a;"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton21ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Square_Root_ButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton22">
+    <Component class="javax.swing.JButton" name="PowerButton">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="10" style="1"/>
@@ -539,7 +539,7 @@
         <Property name="text" type="java.lang.String" value="^"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton22ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PowerButtonActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jButton23">
@@ -547,7 +547,7 @@
         <Property name="text" type="java.lang.String" value="!"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton24">
+    <Component class="javax.swing.JButton" name="sin_button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="12" style="1"/>
@@ -555,7 +555,7 @@
         <Property name="text" type="java.lang.String" value="sin"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton25">
+    <Component class="javax.swing.JButton" name="ln_button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="14" style="1"/>
@@ -563,10 +563,10 @@
         <Property name="text" type="java.lang.String" value="ln "/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton25ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ln_buttonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton26">
+    <Component class="javax.swing.JButton" name="tan_button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="12" style="1"/>
@@ -574,7 +574,7 @@
         <Property name="text" type="java.lang.String" value="tan"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton27">
+    <Component class="javax.swing.JButton" name="cos_button">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="12" style="1"/>
@@ -582,7 +582,7 @@
         <Property name="text" type="java.lang.String" value="cos"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton27ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cos_buttonActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>
