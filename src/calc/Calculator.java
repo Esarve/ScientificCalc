@@ -50,6 +50,10 @@ public class Calculator extends javax.swing.JFrame {
                 answer=Math.pow(Double.parseDouble(jTextField1.getText()), 2);
                 jTextField1.setText(Double.toString(answer));
                 break;
+            case 7:
+                answer= Math.pow(number, Integer.parseInt(jTextField1.getText()));
+                jTextField1.setText(Double.toString(answer));
+                break;
         }
     }
     
@@ -333,6 +337,11 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         jButton22.setText("EXP");
+        jButton22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton22ActionPerformed(evt);
+            }
+        });
 
         jButton23.setText("!");
 
@@ -604,6 +613,14 @@ public class Calculator extends javax.swing.JFrame {
         calc=6;
         engine();
     }//GEN-LAST:event_jButton19ActionPerformed
+
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+        jLabel2.setText(jTextField1.getText()+"^");
+        calc=7;
+        number = Double.parseDouble(jTextField1.getText());
+        jTextField1.setText("");
+        engine();
+    }//GEN-LAST:event_jButton22ActionPerformed
 
     /**
      * @param args the command line arguments
