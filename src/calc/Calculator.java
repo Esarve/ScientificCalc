@@ -46,7 +46,10 @@ public class Calculator extends javax.swing.JFrame {
                 answer=Math.sqrt(Double.parseDouble(jTextField1.getText()));
                 jTextField1.setText(Double.toString(answer));
                 break;
-                
+            case 6:
+                answer=Math.pow(Double.parseDouble(jTextField1.getText()), 2);
+                jTextField1.setText(Double.toString(answer));
+                break;
         }
     }
     
@@ -314,6 +317,11 @@ public class Calculator extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(236, 106, 85));
 
         jButton19.setText("X^2");
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
 
         jButton20.setText("Log");
 
@@ -590,6 +598,12 @@ public class Calculator extends javax.swing.JFrame {
         calc=5;
         engine();
     }//GEN-LAST:event_jButton21ActionPerformed
+
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        jLabel2.setText("Squreing("+jTextField1.getText()+")");
+        calc=6;
+        engine();
+    }//GEN-LAST:event_jButton19ActionPerformed
 
     /**
      * @param args the command line arguments
