@@ -321,7 +321,7 @@ public class Calculator extends javax.swing.JFrame {
 
         jLabel2.setForeground(new java.awt.Color(236, 106, 85));
 
-        jButton19.setText("X^2");
+        jButton19.setText("x^2");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton19ActionPerformed(evt);
@@ -339,7 +339,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
-        jButton22.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jButton22.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
         jButton22.setText("^");
         jButton22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
