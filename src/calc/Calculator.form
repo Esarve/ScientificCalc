@@ -117,7 +117,7 @@
                               <EmptySpace min="88" pref="88" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jButton1" min="-2" pref="70" max="-2" attributes="0"/>
+                                      <Component id="Backspace_key" min="-2" pref="70" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Component id="jButton3" min="-2" pref="70" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
@@ -171,7 +171,7 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jButton1" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                                  <Component id="Backspace_key" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                                   <Component id="jButton3" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                                   <Component id="jButton18" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                               </Group>
@@ -183,12 +183,14 @@
                           </Group>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton2" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                          <Component id="jButton4" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                          <Component id="jButton6" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jButton17" alignment="0" min="-2" pref="44" max="-2" attributes="0"/>
                           <Component id="jButton20" alignment="0" min="-2" pref="44" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jButton2" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="jButton4" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="jButton6" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -219,10 +221,12 @@
                           <Component id="jButton15" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton12" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                          <Component id="jButton11" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jButton10" alignment="1" min="-2" pref="44" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jButton12" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="jButton11" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
                   <Component id="jButton16" min="-2" pref="100" max="-2" attributes="0"/>
@@ -275,12 +279,12 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton2ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton1">
+    <Component class="javax.swing.JButton" name="Backspace_key">
       <Properties>
         <Property name="text" type="java.lang.String" value="&lt;--"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Backspace_keyActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jButton2">
