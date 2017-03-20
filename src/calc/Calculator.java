@@ -22,7 +22,7 @@ public class Calculator extends javax.swing.JFrame {
     public Calculator() {
         initComponents();
         SciModeOFF();
-        jRadioButton1.setSelected(true);
+        On_key.setSelected(true);
     }
     
     double number, answer;
@@ -31,136 +31,136 @@ public class Calculator extends javax.swing.JFrame {
     public void engine(){
         switch(calc){
             case 1: //Add
-                answer=number+ Double.parseDouble(jTextField1.getText());
-                jTextField1.setText(Double.toString(answer));
+                answer=number+ Double.parseDouble(Display_window.getText());
+                Display_window.setText(Double.toString(answer));
                 break;
             case 2: //Substract
-                answer=number- Double.parseDouble(jTextField1.getText());
-                jTextField1.setText(Double.toString(answer));
+                answer=number- Double.parseDouble(Display_window.getText());
+                Display_window.setText(Double.toString(answer));
                 break;
             case 3: //Multiplication
-                answer=number * Double.parseDouble(jTextField1.getText());
-                jTextField1.setText(Double.toString(answer));
+                answer=number * Double.parseDouble(Display_window.getText());
+                Display_window.setText(Double.toString(answer));
                 break;
             case 4: //Division
-                answer=number / Double.parseDouble(jTextField1.getText());
-                jTextField1.setText(Double.toString(answer));
+                answer=number / Double.parseDouble(Display_window.getText());
+                Display_window.setText(Double.toString(answer));
                 break;
             case 5: //Squre Root
-                answer=Math.sqrt(Double.parseDouble(jTextField1.getText()));
-                jTextField1.setText(Double.toString(answer));
+                answer=Math.sqrt(Double.parseDouble(Display_window.getText()));
+                Display_window.setText(Double.toString(answer));
                 break;
             case 6: //Squre
-                answer=Math.pow(Double.parseDouble(jTextField1.getText()), 2);
-                jTextField1.setText(Double.toString(answer));
+                answer=Math.pow(Double.parseDouble(Display_window.getText()), 2);
+                Display_window.setText(Double.toString(answer));
                 break;
             case 7: //Exponential
-                answer= Math.pow(number, Integer.parseInt(jTextField1.getText()));
-                jTextField1.setText(Double.toString(answer));
+                answer= Math.pow(number, Integer.parseInt(Display_window.getText()));
+                Display_window.setText(Double.toString(answer));
                 break;
             case 8: //Sine
-                answer=Math.sin(Math.toRadians(Double.parseDouble(jTextField1.getText())));
-                jTextField1.setText(Double.toString(answer));
+                answer=Math.sin(Math.toRadians(Double.parseDouble(Display_window.getText())));
+                Display_window.setText(Double.toString(answer));
                 break;
             case 9: //Cosine
-                answer=Math.cos(Math.toRadians(Double.parseDouble(jTextField1.getText())));
-                jTextField1.setText(Double.toString(answer));
+                answer=Math.cos(Math.toRadians(Double.parseDouble(Display_window.getText())));
+                Display_window.setText(Double.toString(answer));
                 break;
             case 10: //Tangent
                 try {
-                    answer=Math.tan(Math.toRadians(Double.parseDouble(jTextField1.getText())));
+                    answer=Math.tan(Math.toRadians(Double.parseDouble(Display_window.getText())));
                 } catch (ArithmeticException e) {
-                    jTextField1.setText("Math Error");
+                    Display_window.setText("Math Error");
                     break;
                 }
-                jTextField1.setText(Double.toString(answer));
+                Display_window.setText(Double.toString(answer));
                 break;
             case 11: //Ln
-                answer=Math.log10(Double.parseDouble(jTextField1.getText()));
-                jTextField1.setText(Double.toString(answer));
+                answer=Math.log10(Double.parseDouble(Display_window.getText()));
+                Display_window.setText(Double.toString(answer));
                 break;
         }
     }
     
     public void powerON(){
-        jTextField1.setEnabled(true);
+        Display_window.setEnabled(true);
         Backspace_key.setEnabled(true);
-        jButton2.setEnabled(true);
-        jButton3.setEnabled(true);
-        jButton4.setEnabled(true);
-        jButton5.setEnabled(true);
-        jButton6.setEnabled(true);
-        jButton7.setEnabled(true);
-        jButton8.setEnabled(true);
-        jButton9.setEnabled(true);
-        jButton10.setEnabled(true);
-        jButton11.setEnabled(true);
-        jButton12.setEnabled(true);
-        jButton13.setEnabled(true);
-        jButton14.setEnabled(true);
-        jButton15.setEnabled(true);
-        jButton16.setEnabled(true);
-        jButton17.setEnabled(true);
-        jButton18.setEnabled(true);
-        jToggleButton1.setEnabled(true);
+        One_number_key.setEnabled(true);
+        Alldelete_key.setEnabled(true);
+        Two_number_key.setEnabled(true);
+        Minus_key.setEnabled(true);
+        Three_number_key.setEnabled(true);
+        Six_number_key.setEnabled(true);
+        Five_number_key.setEnabled(true);
+        Four_number_key.setEnabled(true);
+        Equal_key.setEnabled(true);
+        Zero_number_key.setEnabled(true);
+        Dot_key.setEnabled(true);
+        Seven_number_key.setEnabled(true);
+        Eight_number_key.setEnabled(true);
+        Nine_number_key.setEnabled(true);
+        Addition_key.setEnabled(true);
+        Multiplication_key.setEnabled(true);
+        Division_key.setEnabled(true);
+        Scientific_pic.setEnabled(true);
     }
     public void powerOFF(){
-        jTextField1.setEnabled(false);
+        Display_window.setEnabled(false);
         Backspace_key.setEnabled(false);
-        jButton2.setEnabled(false);
-        jButton3.setEnabled(false);
-        jButton4.setEnabled(false);
-        jButton5.setEnabled(false);
-        jButton6.setEnabled(false);
-        jButton7.setEnabled(false);
-        jButton8.setEnabled(false);
-        jButton9.setEnabled(false);
-        jButton10.setEnabled(false);
-        jButton11.setEnabled(false);
-        jButton12.setEnabled(false);
-        jButton13.setEnabled(false);
-        jButton14.setEnabled(false);
-        jButton15.setEnabled(false);
-        jButton16.setEnabled(false);
-        jButton17.setEnabled(false);
-        jButton18.setEnabled(false);
-        jButton19.setEnabled(false);
-        jButton20.setEnabled(false);
-        jButton21.setEnabled(false);
-        jButton22.setEnabled(false);
-        jButton23.setEnabled(false);
-        jButton24.setEnabled(false);
-        jButton25.setEnabled(false);
-        jButton26.setEnabled(false);
-        jButton27.setEnabled(false);
-        jToggleButton1.setEnabled(false);
+        One_number_key.setEnabled(false);
+        Alldelete_key.setEnabled(false);
+        Two_number_key.setEnabled(false);
+        Minus_key.setEnabled(false);
+        Three_number_key.setEnabled(false);
+        Six_number_key.setEnabled(false);
+        Five_number_key.setEnabled(false);
+        Four_number_key.setEnabled(false);
+        Equal_key.setEnabled(false);
+        Zero_number_key.setEnabled(false);
+        Dot_key.setEnabled(false);
+        Seven_number_key.setEnabled(false);
+        Eight_number_key.setEnabled(false);
+        Nine_number_key.setEnabled(false);
+        Addition_key.setEnabled(false);
+        Multiplication_key.setEnabled(false);
+        Division_key.setEnabled(false);
+        Square_key.setEnabled(false);
+        Log_key.setEnabled(false);
+        Root_key.setEnabled(false);
+        Exponential_key.setEnabled(false);
+        Factorial_key.setEnabled(false);
+        Sin_key.setEnabled(false);
+        Ln_key.setEnabled(false);
+        Tan_key.setEnabled(false);
+        Cos_key.setEnabled(false);
+        Scientific_pic.setEnabled(false);
         
     }
     
     public void SciModeOn(){
-        jButton19.setEnabled(true);
-        jButton20.setEnabled(true);
-        jButton21.setEnabled(true);
-        jButton22.setEnabled(true);
-        jButton23.setEnabled(true);
-        jButton24.setEnabled(true);
-        jButton25.setEnabled(true);
-        jButton26.setEnabled(true);
-        jButton27.setEnabled(true);
+        Square_key.setEnabled(true);
+        Log_key.setEnabled(true);
+        Root_key.setEnabled(true);
+        Exponential_key.setEnabled(true);
+        Factorial_key.setEnabled(true);
+        Sin_key.setEnabled(true);
+        Ln_key.setEnabled(true);
+        Tan_key.setEnabled(true);
+        Cos_key.setEnabled(true);
         tswitch = true;
         
     }
     
     public void SciModeOFF(){
-        jButton19.setEnabled(false);
-        jButton20.setEnabled(false);
-        jButton21.setEnabled(false);
-        jButton22.setEnabled(false);
-        jButton23.setEnabled(false);
-        jButton24.setEnabled(false);
-        jButton25.setEnabled(false);
-        jButton26.setEnabled(false);
-        jButton27.setEnabled(false);
+        Square_key.setEnabled(false);
+        Log_key.setEnabled(false);
+        Root_key.setEnabled(false);
+        Exponential_key.setEnabled(false);
+        Factorial_key.setEnabled(false);
+        Sin_key.setEnabled(false);
+        Ln_key.setEnabled(false);
+        Tan_key.setEnabled(false);
+        Cos_key.setEnabled(false);
         tswitch=false;
         
     }
@@ -175,38 +175,38 @@ public class Calculator extends javax.swing.JFrame {
     private void initComponents() {
 
         buttonGroup1 = new javax.swing.ButtonGroup();
-        jTextField1 = new javax.swing.JTextField();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
+        Display_window = new javax.swing.JTextField();
+        On_key = new javax.swing.JRadioButton();
+        OFF_key = new javax.swing.JRadioButton();
         Backspace_key = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
-        jButton17 = new javax.swing.JButton();
-        jButton18 = new javax.swing.JButton();
+        One_number_key = new javax.swing.JButton();
+        Alldelete_key = new javax.swing.JButton();
+        Two_number_key = new javax.swing.JButton();
+        Minus_key = new javax.swing.JButton();
+        Three_number_key = new javax.swing.JButton();
+        Six_number_key = new javax.swing.JButton();
+        Five_number_key = new javax.swing.JButton();
+        Four_number_key = new javax.swing.JButton();
+        Equal_key = new javax.swing.JButton();
+        Zero_number_key = new javax.swing.JButton();
+        Dot_key = new javax.swing.JButton();
+        Seven_number_key = new javax.swing.JButton();
+        Eight_number_key = new javax.swing.JButton();
+        Nine_number_key = new javax.swing.JButton();
+        Addition_key = new javax.swing.JButton();
+        Multiplication_key = new javax.swing.JButton();
+        Division_key = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
-        jButton19 = new javax.swing.JButton();
-        jButton20 = new javax.swing.JButton();
-        jButton21 = new javax.swing.JButton();
-        jButton22 = new javax.swing.JButton();
-        jButton23 = new javax.swing.JButton();
-        jButton24 = new javax.swing.JButton();
-        jButton25 = new javax.swing.JButton();
-        jButton26 = new javax.swing.JButton();
-        jButton27 = new javax.swing.JButton();
-        jToggleButton1 = new javax.swing.JToggleButton();
+        Square_key = new javax.swing.JButton();
+        Log_key = new javax.swing.JButton();
+        Root_key = new javax.swing.JButton();
+        Exponential_key = new javax.swing.JButton();
+        Factorial_key = new javax.swing.JButton();
+        Sin_key = new javax.swing.JButton();
+        Ln_key = new javax.swing.JButton();
+        Tan_key = new javax.swing.JButton();
+        Cos_key = new javax.swing.JButton();
+        Scientific_pic = new javax.swing.JToggleButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Calculator");
@@ -214,245 +214,260 @@ public class Calculator extends javax.swing.JFrame {
         setResizable(false);
         setType(java.awt.Window.Type.UTILITY);
 
-        jTextField1.setBackground(new java.awt.Color(254, 254, 254));
-        jTextField1.setFont(new java.awt.Font("Noto Sans", 1, 24)); // NOI18N
-        jTextField1.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        jTextField1.setToolTipText("");
-
-        buttonGroup1.add(jRadioButton1);
-        jRadioButton1.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jRadioButton1.setText("On");
-        jRadioButton1.setToolTipText("Turns off Calculator");
-        jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+        Display_window.setBackground(new java.awt.Color(254, 254, 254));
+        Display_window.setFont(new java.awt.Font("Noto Sans", 1, 24)); // NOI18N
+        Display_window.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
+        Display_window.setToolTipText("");
+        Display_window.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton1ActionPerformed(evt);
+                Display_windowActionPerformed(evt);
             }
         });
 
-        buttonGroup1.add(jRadioButton2);
-        jRadioButton2.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jRadioButton2.setText("OFF");
-        jRadioButton2.setToolTipText("Turns off calculator");
-        jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
+        buttonGroup1.add(On_key);
+        On_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        On_key.setText("On");
+        On_key.setToolTipText("Turns off Calculator");
+        On_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton2ActionPerformed(evt);
+                On_keyActionPerformed(evt);
             }
         });
 
-        Backspace_key.setText("<--");
+        buttonGroup1.add(OFF_key);
+        OFF_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        OFF_key.setText("OFF");
+        OFF_key.setToolTipText("Turns off calculator");
+        OFF_key.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                OFF_keyActionPerformed(evt);
+            }
+        });
+
+        Backspace_key.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        Backspace_key.setText("← ");
         Backspace_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Backspace_keyActionPerformed(evt);
             }
         });
 
-        jButton2.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton2.setText("1");
-        jButton2.setToolTipText("");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        One_number_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        One_number_key.setText("1");
+        One_number_key.setToolTipText("");
+        One_number_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                One_number_keyActionPerformed(evt);
             }
         });
 
-        jButton3.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton3.setText("C");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        Alldelete_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        Alldelete_key.setText("C");
+        Alldelete_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                Alldelete_keyActionPerformed(evt);
             }
         });
 
-        jButton4.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton4.setText("2");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        Two_number_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        Two_number_key.setText("2");
+        Two_number_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                Two_number_keyActionPerformed(evt);
             }
         });
 
-        jButton5.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton5.setText("-");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        Minus_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        Minus_key.setText("-");
+        Minus_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                Minus_keyActionPerformed(evt);
             }
         });
 
-        jButton6.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton6.setText("3");
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        Three_number_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        Three_number_key.setText("3");
+        Three_number_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                Three_number_keyActionPerformed(evt);
             }
         });
 
-        jButton7.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton7.setText("6");
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
+        Six_number_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        Six_number_key.setText("6");
+        Six_number_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
+                Six_number_keyActionPerformed(evt);
             }
         });
 
-        jButton8.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton8.setText("5");
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
+        Five_number_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        Five_number_key.setText("5");
+        Five_number_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
+                Five_number_keyActionPerformed(evt);
             }
         });
 
-        jButton9.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton9.setText("4");
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
+        Four_number_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        Four_number_key.setText("4");
+        Four_number_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
+                Four_number_keyActionPerformed(evt);
             }
         });
 
-        jButton10.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton10.setText("=");
-        jButton10.addActionListener(new java.awt.event.ActionListener() {
+        Equal_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        Equal_key.setText("=");
+        Equal_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton10ActionPerformed(evt);
+                Equal_keyActionPerformed(evt);
             }
         });
 
-        jButton11.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton11.setText("0");
-        jButton11.addActionListener(new java.awt.event.ActionListener() {
+        Zero_number_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        Zero_number_key.setText("0");
+        Zero_number_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton11ActionPerformed(evt);
+                Zero_number_keyActionPerformed(evt);
             }
         });
 
-        jButton12.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton12.setText(".");
-        jButton12.addActionListener(new java.awt.event.ActionListener() {
+        Dot_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        Dot_key.setText(".");
+        Dot_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton12ActionPerformed(evt);
+                Dot_keyActionPerformed(evt);
             }
         });
 
-        jButton13.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton13.setText("7");
-        jButton13.addActionListener(new java.awt.event.ActionListener() {
+        Seven_number_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        Seven_number_key.setText("7");
+        Seven_number_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton13ActionPerformed(evt);
+                Seven_number_keyActionPerformed(evt);
             }
         });
 
-        jButton14.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton14.setText("8");
-        jButton14.addActionListener(new java.awt.event.ActionListener() {
+        Eight_number_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        Eight_number_key.setText("8");
+        Eight_number_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton14ActionPerformed(evt);
+                Eight_number_keyActionPerformed(evt);
             }
         });
 
-        jButton15.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton15.setText("9");
-        jButton15.addActionListener(new java.awt.event.ActionListener() {
+        Nine_number_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        Nine_number_key.setText("9");
+        Nine_number_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton15ActionPerformed(evt);
+                Nine_number_keyActionPerformed(evt);
             }
         });
 
-        jButton16.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton16.setText("+");
-        jButton16.addActionListener(new java.awt.event.ActionListener() {
+        Addition_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        Addition_key.setText("+");
+        Addition_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton16ActionPerformed(evt);
+                Addition_keyActionPerformed(evt);
             }
         });
 
-        jButton17.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton17.setText("×");
-        jButton17.addActionListener(new java.awt.event.ActionListener() {
+        Multiplication_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        Multiplication_key.setText("×");
+        Multiplication_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton17ActionPerformed(evt);
+                Multiplication_keyActionPerformed(evt);
             }
         });
 
-        jButton18.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        jButton18.setText("÷");
-        jButton18.addActionListener(new java.awt.event.ActionListener() {
+        Division_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        Division_key.setText("÷");
+        Division_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton18ActionPerformed(evt);
+                Division_keyActionPerformed(evt);
             }
         });
 
         jLabel2.setForeground(new java.awt.Color(236, 106, 85));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
 
-        jButton19.setText("X^2");
-        jButton19.addActionListener(new java.awt.event.ActionListener() {
+        Square_key.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Square_key.setText("x²");
+        Square_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton19ActionPerformed(evt);
+                Square_keyActionPerformed(evt);
             }
         });
 
-        jButton20.setText("Log");
-        jButton20.setPreferredSize(new java.awt.Dimension(23, 35));
-        jButton20.addActionListener(new java.awt.event.ActionListener() {
+        Log_key.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        Log_key.setText("log");
+        Log_key.setPreferredSize(new java.awt.Dimension(23, 35));
+        Log_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton20ActionPerformed(evt);
+                Log_keyActionPerformed(evt);
             }
         });
 
-        jButton21.setText("Root()");
-        jButton21.addActionListener(new java.awt.event.ActionListener() {
+        Root_key.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Root_key.setText("√");
+        Root_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton21ActionPerformed(evt);
+                Root_keyActionPerformed(evt);
             }
         });
 
-        jButton22.setText("EXP");
-        jButton22.addActionListener(new java.awt.event.ActionListener() {
+        Exponential_key.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Exponential_key.setText("^");
+        Exponential_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton22ActionPerformed(evt);
+                Exponential_keyActionPerformed(evt);
             }
         });
 
-        jButton23.setText("!");
+        Factorial_key.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        Factorial_key.setText("!");
 
-        jButton24.setText("Sin");
-        jButton24.setPreferredSize(new java.awt.Dimension(23, 35));
-        jButton24.addActionListener(new java.awt.event.ActionListener() {
+        Sin_key.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        Sin_key.setText("sin");
+        Sin_key.setPreferredSize(new java.awt.Dimension(23, 35));
+        Sin_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton24ActionPerformed(evt);
+                Sin_keyActionPerformed(evt);
             }
         });
 
-        jButton25.setText("Ln");
-        jButton25.setPreferredSize(new java.awt.Dimension(23, 35));
-        jButton25.addActionListener(new java.awt.event.ActionListener() {
+        Ln_key.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        Ln_key.setText("ln");
+        Ln_key.setPreferredSize(new java.awt.Dimension(23, 35));
+        Ln_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton25ActionPerformed(evt);
+                Ln_keyActionPerformed(evt);
             }
         });
 
-        jButton26.setText("Tan");
-        jButton26.setPreferredSize(new java.awt.Dimension(23, 35));
-        jButton26.addActionListener(new java.awt.event.ActionListener() {
+        Tan_key.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        Tan_key.setText("tan");
+        Tan_key.setPreferredSize(new java.awt.Dimension(23, 35));
+        Tan_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton26ActionPerformed(evt);
+                Tan_keyActionPerformed(evt);
             }
         });
 
-        jButton27.setText("Cos");
-        jButton27.setPreferredSize(new java.awt.Dimension(23, 35));
-        jButton27.addActionListener(new java.awt.event.ActionListener() {
+        Cos_key.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        Cos_key.setText("cos");
+        Cos_key.setPreferredSize(new java.awt.Dimension(23, 35));
+        Cos_key.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton27ActionPerformed(evt);
+                Cos_keyActionPerformed(evt);
             }
         });
 
-        jToggleButton1.setText("SCI");
-        jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
+        Scientific_pic.setText("SCI");
+        Scientific_pic.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jToggleButton1ActionPerformed(evt);
+                Scientific_picActionPerformed(evt);
             }
         });
 
@@ -469,75 +484,75 @@ public class Calculator extends javax.swing.JFrame {
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Dot_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
-                                        .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Zero_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
-                                        .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(Equal_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                        .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Seven_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
-                                        .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Eight_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(Nine_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(Two_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                                    .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(Four_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                     .addGap(18, 18, 18)
-                                                    .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                            .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                    .addComponent(Five_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addComponent(One_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGap(18, 18, 18)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                            .addComponent(Six_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(Three_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))))
                                 .addGap(24, 24, 24)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jButton16, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton17, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(Addition_key, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(Multiplication_key, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(Minus_key, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(18, 18, 18)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                            .addComponent(jButton27, javax.swing.GroupLayout.DEFAULT_SIZE, 70, Short.MAX_VALUE)
-                                            .addComponent(jButton24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                            .addComponent(Cos_key, javax.swing.GroupLayout.DEFAULT_SIZE, 70, Short.MAX_VALUE)
+                                            .addComponent(Sin_key, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(18, 18, 18)
-                                        .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(Log_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(18, 18, 18)
-                                        .addComponent(jButton26, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(Tan_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jRadioButton2)
-                                    .addComponent(jToggleButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(OFF_key)
+                                    .addComponent(Scientific_pic, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(210, 210, 210)
-                                .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(Division_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jRadioButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(On_key, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(210, 210, 210)
-                                .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(Exponential_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(88, 88, 88)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
                                         .addComponent(Backspace_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
-                                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Alldelete_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(112, 112, 112)
-                                        .addComponent(jButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(Ln_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Root_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
-                                        .addComponent(jButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Square_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(112, 112, 112)
-                                        .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                        .addComponent(Factorial_key, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                         .addGap(20, 20, 20))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 448, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Display_window, javax.swing.GroupLayout.PREFERRED_SIZE, 448, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -547,18 +562,18 @@ public class Calculator extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(19, Short.MAX_VALUE)
+                .addContainerGap(18, Short.MAX_VALUE)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(Display_window, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(On_key, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jButton19)
-                        .addComponent(jButton21)
-                        .addComponent(jButton22)
-                        .addComponent(jButton23)))
+                        .addComponent(Square_key)
+                        .addComponent(Root_key)
+                        .addComponent(Exponential_key)
+                        .addComponent(Factorial_key)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -566,212 +581,216 @@ public class Calculator extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(Backspace_key, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(Alldelete_key, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(Division_key, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jRadioButton2)
+                                .addComponent(OFF_key)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jToggleButton1)))
+                                .addComponent(Scientific_pic)))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Multiplication_key, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Log_key, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(One_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(Two_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(Three_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton26, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(Four_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Five_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Six_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Minus_key, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Tan_key, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(18, 18, 18)
-                        .addComponent(jButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Ln_key, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jButton27, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Cos_key, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(Sin_key, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(Seven_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Eight_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Nine_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton10, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Equal_key, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(Dot_key, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(Zero_number_key, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addComponent(Addition_key, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
+    private void On_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_On_keyActionPerformed
         powerON();
-    }//GEN-LAST:event_jRadioButton1ActionPerformed
+    }//GEN-LAST:event_On_keyActionPerformed
 
-    private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
+    private void OFF_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OFF_keyActionPerformed
         powerOFF(); //Calling powerOFF method
-    }//GEN-LAST:event_jRadioButton2ActionPerformed
+    }//GEN-LAST:event_OFF_keyActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        jTextField1.setText(jTextField1.getText()+"2");
-    }//GEN-LAST:event_jButton4ActionPerformed
+    private void Two_number_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Two_number_keyActionPerformed
+        Display_window.setText(Display_window.getText()+"2");
+    }//GEN-LAST:event_Two_number_keyActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        number = Double.parseDouble(jTextField1.getText());
+    private void Minus_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Minus_keyActionPerformed
+        number = Double.parseDouble(Display_window.getText());
         calc=2;
-        jTextField1.setText("");
+        Display_window.setText("");
         jLabel2.setText(number + " -");
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_Minus_keyActionPerformed
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        jTextField1.setText(jTextField1.getText()+"3");
-    }//GEN-LAST:event_jButton6ActionPerformed
+    private void Three_number_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Three_number_keyActionPerformed
+        Display_window.setText(Display_window.getText()+"3");
+    }//GEN-LAST:event_Three_number_keyActionPerformed
 
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        jTextField1.setText(jTextField1.getText()+"6");
-    }//GEN-LAST:event_jButton7ActionPerformed
+    private void Six_number_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Six_number_keyActionPerformed
+        Display_window.setText(Display_window.getText()+"6");
+    }//GEN-LAST:event_Six_number_keyActionPerformed
 
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        jTextField1.setText(jTextField1.getText()+"5");
-    }//GEN-LAST:event_jButton8ActionPerformed
+    private void Five_number_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Five_number_keyActionPerformed
+        Display_window.setText(Display_window.getText()+"5");
+    }//GEN-LAST:event_Five_number_keyActionPerformed
 
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+    private void Equal_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Equal_keyActionPerformed
         engine();
         jLabel2.setText("");
-    }//GEN-LAST:event_jButton10ActionPerformed
+    }//GEN-LAST:event_Equal_keyActionPerformed
 
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-        jTextField1.setText(jTextField1.getText()+"0");
-    }//GEN-LAST:event_jButton11ActionPerformed
+    private void Zero_number_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Zero_number_keyActionPerformed
+        Display_window.setText(Display_window.getText()+"0");
+    }//GEN-LAST:event_Zero_number_keyActionPerformed
 
-    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
-        jTextField1.setText(jTextField1.getText()+"8");
-    }//GEN-LAST:event_jButton14ActionPerformed
+    private void Eight_number_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Eight_number_keyActionPerformed
+        Display_window.setText(Display_window.getText()+"8");
+    }//GEN-LAST:event_Eight_number_keyActionPerformed
 
-    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
-        jTextField1.setText(jTextField1.getText()+"9");
-    }//GEN-LAST:event_jButton15ActionPerformed
+    private void Nine_number_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Nine_number_keyActionPerformed
+        Display_window.setText(Display_window.getText()+"9");
+    }//GEN-LAST:event_Nine_number_keyActionPerformed
 
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
-        number = Double.parseDouble(jTextField1.getText());
+    private void Addition_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Addition_keyActionPerformed
+        number = Double.parseDouble(Display_window.getText());
         calc=1;
-        jTextField1.setText("");
+        Display_window.setText("");
         jLabel2.setText(number + " +");
-    }//GEN-LAST:event_jButton16ActionPerformed
+    }//GEN-LAST:event_Addition_keyActionPerformed
 
-    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
-        number = Double.parseDouble(jTextField1.getText());
+    private void Multiplication_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Multiplication_keyActionPerformed
+        number = Double.parseDouble(Display_window.getText());
         calc=3;
-        jTextField1.setText("");
+        Display_window.setText("");
         jLabel2.setText(number + " *");
-    }//GEN-LAST:event_jButton17ActionPerformed
+    }//GEN-LAST:event_Multiplication_keyActionPerformed
 
-    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
-        number = Double.parseDouble(jTextField1.getText());
+    private void Division_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Division_keyActionPerformed
+        number = Double.parseDouble(Display_window.getText());
         calc=4;
-        jTextField1.setText("");
+        Display_window.setText("");
         jLabel2.setText(number + " /");
-    }//GEN-LAST:event_jButton18ActionPerformed
+    }//GEN-LAST:event_Division_keyActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        jTextField1.setText(jTextField1.getText()+"1");
-    }//GEN-LAST:event_jButton2ActionPerformed
+    private void One_number_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_One_number_keyActionPerformed
+        Display_window.setText(Display_window.getText()+"1");
+    }//GEN-LAST:event_One_number_keyActionPerformed
 
-    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-        jTextField1.setText(jTextField1.getText()+".");
-    }//GEN-LAST:event_jButton12ActionPerformed
+    private void Dot_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Dot_keyActionPerformed
+        Display_window.setText(Display_window.getText()+".");
+    }//GEN-LAST:event_Dot_keyActionPerformed
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        jTextField1.setText(jTextField1.getText()+"4");
-    }//GEN-LAST:event_jButton9ActionPerformed
+    private void Four_number_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Four_number_keyActionPerformed
+        Display_window.setText(Display_window.getText()+"4");
+    }//GEN-LAST:event_Four_number_keyActionPerformed
 
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
-        jTextField1.setText(jTextField1.getText()+"7");
-    }//GEN-LAST:event_jButton13ActionPerformed
+    private void Seven_number_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Seven_number_keyActionPerformed
+        Display_window.setText(Display_window.getText()+"7");
+    }//GEN-LAST:event_Seven_number_keyActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        jTextField1.setText("");
-        jTextField1.setText("");
-    }//GEN-LAST:event_jButton3ActionPerformed
+    private void Alldelete_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Alldelete_keyActionPerformed
+        Display_window.setText("");
+        Display_window.setText("");
+    }//GEN-LAST:event_Alldelete_keyActionPerformed
 
     private void Backspace_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Backspace_keyActionPerformed
-        int length = jTextField1.getText().length();
-        int number = jTextField1.getText().length()-1;
+        int length = Display_window.getText().length();
+        int number = Display_window.getText().length()-1;
         String store;
         
         if (length>0){
-            StringBuilder dlt = new StringBuilder(jTextField1.getText());
+            StringBuilder dlt = new StringBuilder(Display_window.getText());
             dlt.deleteCharAt(number);
             store=dlt.toString();
-            jTextField1.setText(store);
+            Display_window.setText(store);
         }
     }//GEN-LAST:event_Backspace_keyActionPerformed
 
-    private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
-        jLabel2.setText("Cos("+jTextField1.getText()+")");
+    private void Cos_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cos_keyActionPerformed
+        jLabel2.setText("Cos("+Display_window.getText()+")");
         calc=9;
         engine();
-    }//GEN-LAST:event_jButton27ActionPerformed
+    }//GEN-LAST:event_Cos_keyActionPerformed
 
-    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
-        jLabel2.setText("SqureRoot("+jTextField1.getText()+")");
+    private void Root_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Root_keyActionPerformed
+        jLabel2.setText("SqureRoot("+Display_window.getText()+")");
         calc=5;
         engine();
-    }//GEN-LAST:event_jButton21ActionPerformed
+    }//GEN-LAST:event_Root_keyActionPerformed
 
-    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
-        jLabel2.setText("Squreing("+jTextField1.getText()+")");
+    private void Square_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Square_keyActionPerformed
+        jLabel2.setText("Squreing("+Display_window.getText()+")");
         calc=6;
         engine();
-    }//GEN-LAST:event_jButton19ActionPerformed
+    }//GEN-LAST:event_Square_keyActionPerformed
 
-    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
-        jLabel2.setText(jTextField1.getText()+"^");
+    private void Exponential_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Exponential_keyActionPerformed
+        jLabel2.setText(Display_window.getText()+"^");
         calc=7;
-        number = Double.parseDouble(jTextField1.getText());
-        jTextField1.setText("");
+        number = Double.parseDouble(Display_window.getText());
+        Display_window.setText("");
         engine();
-    }//GEN-LAST:event_jButton22ActionPerformed
+    }//GEN-LAST:event_Exponential_keyActionPerformed
 
-    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
-        jLabel2.setText("Sin("+jTextField1.getText()+")");
+    private void Sin_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sin_keyActionPerformed
+        jLabel2.setText("Sin("+Display_window.getText()+")");
         calc=8;
         engine();
-    }//GEN-LAST:event_jButton24ActionPerformed
+    }//GEN-LAST:event_Sin_keyActionPerformed
 
-    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
-        jLabel2.setText("Tan("+jTextField1.getText()+")");
+    private void Tan_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tan_keyActionPerformed
+        jLabel2.setText("Tan("+Display_window.getText()+")");
         calc=10;
         engine();
-    }//GEN-LAST:event_jButton26ActionPerformed
+    }//GEN-LAST:event_Tan_keyActionPerformed
 
-    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
-        jLabel2.setText("log("+jTextField1.getText()+")");
+    private void Log_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Log_keyActionPerformed
+        jLabel2.setText("log("+Display_window.getText()+")");
         calc=11;
         engine();
-    }//GEN-LAST:event_jButton20ActionPerformed
+    }//GEN-LAST:event_Log_keyActionPerformed
 
-    private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
+    private void Scientific_picActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Scientific_picActionPerformed
         if(tswitch){
             SciModeOFF();
         }else
         SciModeOn();
-    }//GEN-LAST:event_jToggleButton1ActionPerformed
+    }//GEN-LAST:event_Scientific_picActionPerformed
 
-    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
+    private void Ln_keyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Ln_keyActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton25ActionPerformed
+    }//GEN-LAST:event_Ln_keyActionPerformed
+
+    private void Display_windowActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Display_windowActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Display_windowActionPerformed
 
     /**
      * @param args the command line arguments
@@ -809,38 +828,38 @@ public class Calculator extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton Addition_key;
+    private javax.swing.JButton Alldelete_key;
     private javax.swing.JButton Backspace_key;
+    private javax.swing.JButton Cos_key;
+    private javax.swing.JTextField Display_window;
+    private javax.swing.JButton Division_key;
+    private javax.swing.JButton Dot_key;
+    private javax.swing.JButton Eight_number_key;
+    private javax.swing.JButton Equal_key;
+    private javax.swing.JButton Exponential_key;
+    private javax.swing.JButton Factorial_key;
+    private javax.swing.JButton Five_number_key;
+    private javax.swing.JButton Four_number_key;
+    private javax.swing.JButton Ln_key;
+    private javax.swing.JButton Log_key;
+    private javax.swing.JButton Minus_key;
+    private javax.swing.JButton Multiplication_key;
+    private javax.swing.JButton Nine_number_key;
+    private javax.swing.JRadioButton OFF_key;
+    private javax.swing.JRadioButton On_key;
+    private javax.swing.JButton One_number_key;
+    private javax.swing.JButton Root_key;
+    private javax.swing.JToggleButton Scientific_pic;
+    private javax.swing.JButton Seven_number_key;
+    private javax.swing.JButton Sin_key;
+    private javax.swing.JButton Six_number_key;
+    private javax.swing.JButton Square_key;
+    private javax.swing.JButton Tan_key;
+    private javax.swing.JButton Three_number_key;
+    private javax.swing.JButton Two_number_key;
+    private javax.swing.JButton Zero_number_key;
     private javax.swing.ButtonGroup buttonGroup1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton24;
-    private javax.swing.JButton jButton25;
-    private javax.swing.JButton jButton26;
-    private javax.swing.JButton jButton27;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JToggleButton jToggleButton1;
     // End of variables declaration//GEN-END:variables
 }
