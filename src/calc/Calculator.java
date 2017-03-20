@@ -214,16 +214,6 @@ public class Calculator extends javax.swing.JFrame {
 
 
         
-        // Display_window.setBackground(new java.awt.Color(254, 254, 254));
-        // Display_window.setFont(new java.awt.Font("Noto Sans", 1, 24)); // NOI18N
-        // Display_window.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        // Display_window.setToolTipText("");
-        // Display_window.addActionListener(new java.awt.event.ActionListener() {
-        // Display_window.setEditable(false);
-        // Display_window.setBackground(new java.awt.Color(254, 254, 254));
-        // Display_window.setFont(new java.awt.Font("Noto Sans", 1, 24)); // NOI18N
-        // Display_window.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        // Display_window.setToolTipText("");
 
         Display_window.setEditable(false);
         Display_window.setBackground(new java.awt.Color(254, 254, 254));
@@ -232,16 +222,6 @@ public class Calculator extends javax.swing.JFrame {
         Display_window.setToolTipText("");
 
 
-        // buttonGroup1.add(jRadioButton1);
-        // jRadioButton1.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
-        // jRadioButton1.setText("On");
-        // jRadioButton1.setToolTipText("Turns off Calculator");
-        // jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
-
-        //     public void actionPerformed(java.awt.event.ActionEvent evt) {
-        //         Display_windowActionPerformed(evt);
-        //     }
-        // });
 
         buttonGroup1.add(On_key);
         On_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
