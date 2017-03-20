@@ -359,7 +359,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
-        PowerButton.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
+        PowerButton.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         PowerButton.setText("^");
         PowerButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
