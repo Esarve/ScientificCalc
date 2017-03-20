@@ -5,8 +5,6 @@
  */
 package calc;
 
-import javax.swing.JTextField;
-
 /**
  *
  * @author sourav
@@ -214,15 +212,28 @@ public class Calculator extends javax.swing.JFrame {
         setResizable(false);
         setType(java.awt.Window.Type.UTILITY);
 
-        Display_window.setBackground(new java.awt.Color(254, 254, 254));
-        Display_window.setFont(new java.awt.Font("Noto Sans", 1, 24)); // NOI18N
-        Display_window.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        Display_window.setToolTipText("");
-        Display_window.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Display_windowActionPerformed(evt);
-            }
-        });
+        
+        // Display_window.setBackground(new java.awt.Color(254, 254, 254));
+        // Display_window.setFont(new java.awt.Font("Noto Sans", 1, 24)); // NOI18N
+        // Display_window.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
+        // Display_window.setToolTipText("");
+        // Display_window.addActionListener(new java.awt.event.ActionListener() {
+        // Display_window.setEditable(false);
+        // Display_window.setBackground(new java.awt.Color(254, 254, 254));
+        // Display_window.setFont(new java.awt.Font("Noto Sans", 1, 24)); // NOI18N
+        // Display_window.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
+        // Display_window.setToolTipText("");
+
+        // buttonGroup1.add(jRadioButton1);
+        // jRadioButton1.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
+        // jRadioButton1.setText("On");
+        // jRadioButton1.setToolTipText("Turns off Calculator");
+        // jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+
+        //     public void actionPerformed(java.awt.event.ActionEvent evt) {
+        //         Display_windowActionPerformed(evt);
+        //     }
+        // });
 
         buttonGroup1.add(On_key);
         On_key.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
@@ -820,10 +831,8 @@ public class Calculator extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Calculator().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new Calculator().setVisible(true);
         });
     }
 
@@ -861,5 +870,6 @@ public class Calculator extends javax.swing.JFrame {
     private javax.swing.JButton Zero_number_key;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JLabel jLabel2;
+
     // End of variables declaration//GEN-END:variables
 }
