@@ -214,6 +214,7 @@ public class Calculator extends javax.swing.JFrame {
         setResizable(false);
         setType(java.awt.Window.Type.UTILITY);
 
+        jTextField1.setEditable(false);
         jTextField1.setBackground(new java.awt.Color(254, 254, 254));
         jTextField1.setFont(new java.awt.Font("Noto Sans", 1, 24)); // NOI18N
         jTextField1.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
