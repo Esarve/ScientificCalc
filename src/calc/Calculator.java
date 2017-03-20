@@ -212,6 +212,7 @@ public class Calculator extends javax.swing.JFrame {
         setResizable(false);
         setType(java.awt.Window.Type.UTILITY);
 
+
         
         // Display_window.setBackground(new java.awt.Color(254, 254, 254));
         // Display_window.setFont(new java.awt.Font("Noto Sans", 1, 24)); // NOI18N
@@ -223,6 +224,13 @@ public class Calculator extends javax.swing.JFrame {
         // Display_window.setFont(new java.awt.Font("Noto Sans", 1, 24)); // NOI18N
         // Display_window.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         // Display_window.setToolTipText("");
+
+        Display_window.setEditable(false);
+        Display_window.setBackground(new java.awt.Color(254, 254, 254));
+        Display_window.setFont(new java.awt.Font("Noto Sans", 1, 24)); // NOI18N
+        Display_window.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
+        Display_window.setToolTipText("");
+
 
         // buttonGroup1.add(jRadioButton1);
         // jRadioButton1.setFont(new java.awt.Font("Noto Sans", 1, 15)); // NOI18N
